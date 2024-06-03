@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Paynimo</name>
+    <version>1.0.4</version>
+    <stability>devel</stability>
+    <license>Open Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Paynimo</summary>
+    <description>Paynimo</description>
+    <notes>Paynimo Payment Gateway</notes>
+    <authors><author><name>TechProcess</name><user>TechProcess</user><email>info@techprocess.co.in</email></author></authors>
+    <date>2024-05-22</date>
+    <time>06:59:55</time>
+    <contents><target name="magelocal"><dir><dir name="Techprocess"><dir name="Paynimo"><dir name="Helper"><file name="Data.php" hash="7bd56f0688569e91910363008737220f"/></dir><dir name="Model"><dir name="Lib"><file name="AES.php" hash="a37d4a1cfa6777c15247cd5b0caf2c10"/><file name="RequestValidate.php" hash="43352f9661f1833eedbeb62dc444e0a5"/><file name="TransactionRequestBean.php" hash="cb8dd32fc78910932dc19f3fb83b78aa"/><file name="TransactionResponseBean.php" hash="b08d56ffc17eaeb71533c8c28434efb2"/><file name="techprocess.php" hash="0468dce3b3f58fea7aa81bc8d1cd00c5"/><file name="version.txt" hash="c946da4fe5901636feaa651be2f357a2"/></dir><file name="Order.php" hash="f10057856a9f319cb5275adb0f6d8c24"/><dir name="Source"><file name="Hashalgo.php" hash="00a5034251c326b46c36e154ebcb9f04"/><file name="Transaction.php" hash="2e43166b47c584161cd377e5e16d0a19"/><file name="Url.php" hash="adf9fdfb3d5f3d60e443e9af28a46319"/></dir><file name="Standard.php" hash="643062ca8d0f194ddfe8c5a50e095635"/></dir><dir name="controllers"><file name="PaymentController.php" hash="413759e9e62e129595b4ace006fbff59"/></dir><dir name="etc"><file name="config.xml" hash="c242eb06e0b4105923a434e670179911"/><file name="system.xml" hash="a216f8b9271b2e6e54c00f9f2aff26ae"/></dir></dir></dir></dir></target><target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="Techprocess_Paynimo.xml" hash="244fc80ee3e78a415a7bd50be503cfb5"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>7.1.0</min><max>8.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Techprocess_Paynimo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Techprocess_Paynimo>
+    </modules>
+</config>
